@@ -1,0 +1,4 @@
+C:\Users\USER\Desktop\tichnut\B\Poject\TryETWCsharp\bin\Release\net7.0\win-x64\publish\TryETWCsharp.pdb
+C:\Users\USER\Desktop\tichnut\B\Poject\TryETWCsharp\bin\Release\net7.0\win-x64\publish\amd64\KernelTraceControl.dll
+C:\Users\USER\Desktop\tichnut\B\Poject\TryETWCsharp\bin\Release\net7.0\win-x64\publish\amd64\msdia140.dll
+C:\Users\USER\Desktop\tichnut\B\Poject\TryETWCsharp\bin\Release\net7.0\win-x64\publish\TryETWCsharp.exe
