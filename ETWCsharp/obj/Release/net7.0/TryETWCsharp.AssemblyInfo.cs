@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TryETWCsharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe924767de5ade66ae59980ea5bf7084f2fa455")]
 [assembly: System.Reflection.AssemblyProductAttribute("TryETWCsharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TryETWCsharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
