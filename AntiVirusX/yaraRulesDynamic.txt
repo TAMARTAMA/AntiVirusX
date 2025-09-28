@@ -1,0 +1,13 @@
+rule FileIO_Read_Before_Write
+{
+    meta:
+        description = "Detect FileIO/Read appears before FileIO/Write by the https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Vb8FsnEAAAAJ&citation_for_view=Vb8FsnEAAAAJ:8k81kl-MbHgC"
+        author = "tamar"
+
+    strings:
+        $read = "FileIO/Read"
+        $write = "FileIO/Write"
+
+    condition:
+        $read and $write and @read[1] < @write[1]
+}

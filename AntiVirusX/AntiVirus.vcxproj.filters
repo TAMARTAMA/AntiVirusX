@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Monitoring">
+      <UniqueIdentifier>{790ba370-6011-44dc-8885-96061db8874c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Anlysis">
+      <UniqueIdentifier>{22db52e2-7503-4c47-8164-c298fee8a2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Monitoring">
+      <UniqueIdentifier>{056ebb20-f2f9-41ef-8ab4-03a7e1b303bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anlysis">
+      <UniqueIdentifier>{521ccc22-ba4e-4cfd-b27a-2cbc85d1bb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anlysis\Static">
+      <UniqueIdentifier>{a4c05102-148c-4687-b459-0807e3e1fccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anlysis\Dynamic">
+      <UniqueIdentifier>{014c16d5-b858-417f-827e-01b68ed649b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Anlysis\Static">
+      <UniqueIdentifier>{73cdf862-dcda-4d88-80e7-fe9b850aff28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Anlysis\Dynamic">
+      <UniqueIdentifier>{78bb63a3-6d7d-4a72-9a9b-d74a8de9374a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Result">
+      <UniqueIdentifier>{5f2bf080-45a7-46e1-bd73-7f2a3ec60934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Result">
+      <UniqueIdentifier>{4599bf1c-4c62-441b-be1b-2fdc50aefa10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiVirus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiMessenge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileExe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalysisFile.cpp">
+      <Filter>Source Files\Anlysis</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveMonitor.cpp">
+      <Filter>Source Files\Monitoring</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderMonitor.cpp">
+      <Filter>Source Files\Monitoring</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddlewareCheckingFile.cpp">
+      <Filter>Source Files\Monitoring</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreatMonitoring.cpp">
+      <Filter>Source Files\Monitoring</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFunction.cpp">
+      <Filter>Source Files\Anlysis\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="SignScan.cpp">
+      <Filter>Source Files\Anlysis\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticAnalysisFile.cpp">
+      <Filter>Source Files\Anlysis\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectVirusTotal.cpp">
+      <Filter>Source Files\Anlysis\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicAnlysisFile.cpp">
+      <Filter>Source Files\Anlysis\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperV.cpp">
+      <Filter>Source Files\Anlysis\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>Source Files\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="YaraRules.cpp">
+      <Filter>Source Files\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Registery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiMessenge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileExe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalysisFile.h">
+      <Filter>Header Files\Anlysis</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveMonitor.h">
+      <Filter>Header Files\Monitoring</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderMonitor.h">
+      <Filter>Header Files\Monitoring</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddlewareCheckingFile.h">
+      <Filter>Header Files\Monitoring</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreatMonitoring.h">
+      <Filter>Header Files\Monitoring</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFunction.h">
+      <Filter>Header Files\Anlysis\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="SignScan.h">
+      <Filter>Header Files\Anlysis\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticAnalysisFile.h">
+      <Filter>Header Files\Anlysis\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectVirusTotal.h">
+      <Filter>Header Files\Anlysis\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicAnlysisFile.h">
+      <Filter>Header Files\Anlysis\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperV.h">
+      <Filter>Header Files\Anlysis\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="YaraRules.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Registery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
