@@ -1,34 +1,4 @@
 
-//#define NOMINMAX
-//#define WIN32_LEAN_AND_MEAN
-//#include <windows.h>
-//#undef byte
-//#include <Dbt.h>
-//#include <iostream>
-//#include <string>
-//#include <thread>
-//
-//#include "global.h"
-//#include "FileExe.h"
-//#pragma comment(lib, "setupapi.lib")
-//#pragma comment(lib, "user32.lib")
-//#define WM_FILE_DOWNLOADED (WM_APP + 1)
-//using namespace std;
-//class FolderMonitor {
-//	public:
-//		FileExe StartMonitoring(std::wstring );
-//	
-//	private:
-//		//void ScanFile(const std::wstring& filePath);
-//	
-//		FileExe MonitorFolder(const std::wstring& );
-//
-//		bool IsFileUnlocked(const std::wstring& filePath);
-//
-//	
-//		//void ShowMessage(const std::wstring& message);
-//};
-
 
 #pragma once
 #ifndef FOLDER_MONITOR_H
